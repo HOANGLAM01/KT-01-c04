@@ -248,18 +248,17 @@
   22 Tìm các vị trí của min trong mảng.
         <script>
                 const mang = [2, 5, 8, 2, 5, 2, 9];
-                let min = mang[0]; // Khởi tạo min với phần tử đầu tiên của mảng
-                let viTriMin = [0]; // Mảng để lưu trữ các vị trí của min
+                let min = mang[0]; 
+                let viTriMin = [0];
 
                 for (let i = 1; i < mang.length; i++) {
                     if (mang[i] < min) {
-                        min = mang[i]; // Nếu tìm thấy phần tử nhỏ hơn min, cập nhật min
-                        viTriMin = [i]; // Làm trống mảng vị trí và thêm vị trí mới của min
+                        min = mang[i];
+                        viTriMin = [i];
                     } else if (mang[i] === min) {
-                        viTriMin.push(i); // Nếu phần tử bằng min, thêm vị trí vào mảng vị trí
+                        viTriMin.push(i);
                     }
                 }
-
                 console.log("những vị trí min là: "+viTriMin)
         </script>
 */
