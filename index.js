@@ -32,6 +32,12 @@
             document.getElementById("data").value=a;
         </script>
   6  In ra giao diện tương ứng thẻ h1, img, a từ JS
+        <h1 id="show"></h1>
+        <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Knms/app-game/avatar-game-naruto-da-nen-tang-cho-cac-tin-do-dam-me-manga-va-anime.jpg" alt="GAME NARUTO HOT" style="width: 252px; height: 142px;" >
+        <a style="background: local;" href="https://nindorising.com/">Chơi Ngay</a>
+        <script>
+                document.getElementById("show").innerHTML="GAME NARUTO 2025"
+        </script>
   7 Nhập vào đường dẫn ảnh cho biến một biến bất kì, sau đó in ra ảnh với nguồn ảnh đó
         <img id="img1" alt style="width: 252px; height: 142px;">
         <script>
